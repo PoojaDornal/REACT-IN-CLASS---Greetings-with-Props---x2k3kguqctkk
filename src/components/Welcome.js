@@ -8,5 +8,11 @@ const Welcome =() =>{
     
   ); 
 }
+const functionExample=()=>
+{
+    return (
+    <Welcome/>
+    );
+}
 
 export default welcome;
