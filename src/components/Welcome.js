@@ -1,18 +1,18 @@
 // write code for Welcome component here
 import React from "react";
+import Child from "./Child";
 
-const Welcome =() =>{
+
+const Welcome =(props) =>{
   return(
-    <h1 name="Krishna">Hey!Krishna .</h1>
+    <>
+    <h1>Hey {props.name}!</h1>
+    <sectin>
     <h2>Welcome to Newton School.</h2>
+    </section>
+    </>
     
   ); 
-}
-const functionExample=()=>
-{
-    return (
-    <Welcome/>
-    );
-}
+};
 
 export default welcome;
